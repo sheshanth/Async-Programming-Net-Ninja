@@ -7,7 +7,7 @@ let jsonReqRes = new XMLHttpRequest();
 
 } */
 
-jsonReqRes.open("GET", "data/tweets.json", true);
+jsonReqRes.open("GET", "data/tweets.json", true); 
 
 jsonReqRes.send();
 

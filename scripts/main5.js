@@ -27,6 +27,7 @@ window.onload = function () {
 
     }
 
+
     let promise = gets('data/tweets.json')
 
     promise.then(function (tweets) {
@@ -39,6 +40,6 @@ window.onload = function () {
         console.log(videos);
     }).catch(function (error) {
         console.log(error);
-    })
+    }) 
 
 }
